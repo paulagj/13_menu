@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>EASD ALCOI</title>
+		<meta name="description" content="A slideshow with a layer motion parallax effect and a different grid layout for every slide" />
+		<meta name="keywords" content="css grid, slideshow, parallax, layout, template, web design, web development, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-nav" viewBox="0 0 407 660">
+				<title>caret</title>
+				<path d="M77 0L0 77l253 253L0 583l77 77 330-330z"/>
+			</symbol>
+		</svg>
+		<main>
+			<p class="message">Please view on desktop to see the full layout</p>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">EASD ALCOI</h1>
+					<div class="nav">
+						<div class="nav__counter">
+							<span>0</span>/<span>0</span>
+						</div>
+						<div class="nav__arrows">
+							<button class="nav__arrow nav__arrow--prev" data-hover>
+								<svg class="icon icon--rotated icon--nav"><use xlink:href="#icon-nav"></use></svg>
+							</button>
+							<button class="nav__arrow nav__arrow--next" data-hover>
+								<svg class="icon icon--nav"><use xlink:href="#icon-nav"></use></svg>
+							</button>
+						</div>
+					</div>
+				</div><!-- /frame__title-wrap -->
+				<div class="frame__links">
+					<a href="http://www.easdalcoi.es/es/alumnes/evaluaciones-ciclos/" title="Previous Demo" data-hover>Alumnes</a>
+					<a href="http://www.easdalcoi.es/es/estudis/estudios-y-perfiles/" title="Back to the article" data-hover>Estudis</a>
+					<a href="http://www.easdalcoi.es/es/secretaria/calendario-escolar/" title="Find this project on GitHub" data-hover>Secretaria</a>
+				</div>
+				<div class="index" data-hover>index</div>
+			</div><!--/frame-->
+			<div class="slideshow">
+				<div class="slide slide--layout-1" data-contentcolor="#e88655">
+					<div class="slide__figure slide__figure--main" data-sort="3">
+						<div class="slide__figure-img" style="background-image: url(img/3.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="2">
+						<div class="slide__figure-img" style="background-image: url(img/2.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="4">
+						<div class="slide__figure-img" style="background-image: url(img/1.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="1">
+						<div class="slide__figure-img" style="background-image: url(img/4.jpg)"></div>
+					</div>
+					<h2 class="slide__title">Gráfica Publicitaria</h2>
+					<div class="slide__text slide__text--right">
+						<p class="slide__text-meta">Ciclo Formativo de Grado Superior de Gráfica Publicitaria</p>
+						<p class="slide__text-description">Técnico Superior de Artes Plásticas y Diseño</p>
+						<a class="slide__text-link" data-hover href="#">+</a>
+					</div>
+					<button class="slide__back" data-hover>
+						<svg class="icon icon--back"><use xlink:href="#icon-arrow"></use></svg>
+					</button>
+					<div class="slide__content">
+						<p>Los mensajes gráficos están presentes prácticamente en todos los momentos de nuestra vida cotidiana, convirtiéndose en los protagonistas de nuestro entorno visual inmediato.</p>
+						<p>El ciclo superior de Gráfica Publicitaria está orientado a formar profesionales creativos que elaboren los mensajes gráficos que las instituciones y empresas destinan al ciudadano o receptor, a través de los distintos medios de comunicación.</p>
+						<p>Los productos o mensajes gráficos pueden pertenecer a diversos ámbitos:</p>
+						<p>Editorial (libros, revistas, periódicos,…) Publicitario (vallas publicitarias, publicidad en punto de venta, carteles, folletos, catálogos,…) Imagen corporativa (marcas, papelería,…) Envases y embalajes. Señalética. Gráfica audiovisual (páginas web, spots publicitarios, gráfica para televisión…).</p>
+						<p>Estos estudios ofrecen una enseñanza que contempla las técnicas tradicionales y digitales y los contenidos culturales, artísticos y formales que debe dominar el profesional del diseño gráfico. El Técnico Superior en Gráfica Publicitaria puede trabajar como profesional liberal autónomo (freelance), vinculado a un estudio de diseño gráfico o publicitario, así como a una empresa institucional o privada.</p>
+					</div>
+				</div>
+				<div class="slide slide--layout-2" data-contentcolor="#7dd2dc">
+					<div class="slide__figure slide__figure--main" data-sort="1">
+						<div class="slide__figure-img" style="background-image: url(img/5.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="2">
+						<div class="slide__figure-img" style="background-image: url(img/7.png)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="3">
+						<div class="slide__figure-img" style="background-image: url(img/6.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="4">
+						<div class="slide__figure-img" style="background-image: url(img/8.jpg)"></div>
+					</div>
+					<h2 class="slide__title">Fotografía</h2>
+					<div class="slide__text">
+						<p class="slide__text-meta">Ciclo Superior de Fotografía</p>
+						<p class="slide__text-description">Técnico superior de Fotografía</p>
+						<a class="slide__text-link" data-hover href="#">+</a>
+					</div>
+					<button class="slide__back" data-hover>
+						<svg class="icon icon--back"><use xlink:href="#icon-arrow"></use></svg>
+					</button>
+					<div class="slide__content">
+						<p>El estudiante del ciclo superior de fotografía estará capacitado para elaborar obra original de fotografía a partir de un encargo profesional determinado o de un proyecto propio. Definir las variables formales, funcionales, estéticas y técnicas del proyecto de fotografía, planificar el proceso y saber realizarlo.</p>
+						<p>El futuro profesional estará capacitado para organizar y desarrollar las diferentes fases del proyecto y los controles de calidad correspondientes para garantizar un producto fotográfico acorde a los parámetros profesionales exigibles.</p>
+						<p>Dentro de su ámbito profesional desarrollará su actividad como profesional autónomo y como trabajador por cuenta ajena. Puede colaborar con otros profesionales transmitiendo ideas o conceptos mediante productos fotográficos destinados a editarse en diferentes medios y soportes. Puede ejercer su profesión en el ámbito público o privado, en empresas del sector de la comunicación, agencias de publicidad, estudios de diseño, de moda, prensa, editoriales, TV. En empresas e instituciones de otros sectores que así lo requieran. Museos y empresas de restauración de obras de arte, arqueología, laboratorios forenses, investigación policial, medicina legal, peritación, etc.</p>
+					</div>
+				</div>
+				<div class="slide slide--layout-3" data-contentcolor="#dc9d7f">
+					<div class="slide__figure slide__figure--main" data-sort="1">
+						<div class="slide__figure-img" style="background-image: url(img/9.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="2">
+						<div class="slide__figure-img" style="background-image: url(img/10.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="3">
+						<div class="slide__figure-img" style="background-image: url(img/12.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="4">
+						<div class="slide__figure-img" style="background-image: url(img/11.jpg)"></div>
+					</div>
+					<h2 class="slide__title">Diseño Gráfico</h2>
+					<div class="slide__text">
+						<p class="slide__text-meta">Estudios Superiores en Diseño</p>
+						<p class="slide__text-description">Especialidad de Diseño Gráfico</p>
+						<a class="slide__text-link" data-hover href="#">+</a>
+					</div>
+					<button class="slide__back" data-hover>
+						<svg class="icon icon--back"><use xlink:href="#icon-arrow"></use></svg>
+					</button>
+					<div class="slide__content">
+						<p>Los estudios Superiores de Diseño entre los que se inscribe el Grado de Gráﬁco, constituyen el nivel superior de las Enseñanzas Artísticas y se integran en el marco europeo de Educación Superior, dando acceso tras su ﬁnalización a los estudios de postgrado: másteres y doctorado.</p>
+						<p>La duración de los estudios de Grado de Diseño es de cuatro cursos, en los cuales se imparten materias relacionadas con el conocimiento del Diseño Gráﬁco.</p>
+						<p>En nuestro entorno recibimos constantemente estímulos y mensajes visuales que nos llegan a través de medios de comunicación tradicionales (libros, soportes urbanos, correspondencia,...), medios de comunicación de masas (prensa, televisión, internet...) o productos industriales (envases, embalajes,...).</p>
+						<p>Estos mensajes visuales son elaborados por el diseñador gráfico, que actúa como interlocutor o mediador entre una entidad emisora (empresa, institución,...) que tiene que transmitirlos y un público destinatario que los recibe a través de un soporte físico (la industria gráfica o audiovisual).</p>
+						<p>Debido a la multidisciplinariedad del acto comunicativo, la formación del diseñador gráfico debe fundamentarse sobre áreas diferentes, como son las técnicas implicadas en el proceso de diseño y el conocimiento de los medios de comunicación y de los rasgos sociológicos y culturales que subyacen en los diferentes ámbitos de una comunidad.</p>
+						<p>Los campos de acción del diseño gráfico son: el diseño editorial, el diseño de imagen corporativa, el diseño publicitario y de promoción de productos y el diseño de sistemas de información gráfica. En esos ámbitos, el diseñador gráfico puede ejercer como director artístico, director de proyectos o grafista de una empresa o estudio, o como profesional liberal.</p>
+					</div>
+				</div>
+				<div class="slide slide--layout-4" data-contentcolor="#e4d0a2">
+					<div class="slide__figure slide__figure--main" data-sort="4">
+						<div class="slide__figure-img" style="background-image: url(img/16.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="3">
+						<div class="slide__figure-img" style="background-image: url(img/14.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="2">
+						<div class="slide__figure-img" style="background-image: url(img/15.jpg)"></div>
+					</div>
+					<div class="slide__figure slide__figure--box" data-sort="1">
+						<div class="slide__figure-img" style="background-image: url(img/13.jpg)"></div>
+					</div>
+					<h2 class="slide__title">Diseño Interiores</h2>
+					<div class="slide__text slide__text--right">
+						<p class="slide__text-meta">Estudios Superiores en Diseño</p>
+						<p class="slide__text-description">Especialidad de Diseño de Interiores</p>
+						<a class="slide__text-link" data-hover href="#">+</a>
+					</div>
+					<button class="slide__back" data-hover>
+						<svg class="icon icon--back"><use xlink:href="#icon-arrow"></use></svg>
+					</button>
+					<div class="slide__content">
+						<p>Los estudios Superiores en Diseño de Interiores, constituyen el nivel superior de las Enseñanzas Artísticas y se integran en el marco europeo de Educación Superior, dando acceso tras su finalización a los estudios de postgrado: másteres y doctorado.</p>
+						<p>La duración de los estudios Superiores de Diseño es de cuatro cursos, en los cuales se imparten materias relacionadas con el conocimiento de los lenguajes conceptuales, poéticos, formales, técnicos, informáticos o culturales propios del ámbito del Diseño de Interiores, y permitirá a los alumnos abordar la resolución de los nuevos espacios, en toda su complejidad.</p>
+						<p>El diseño de interiores es competente en la generación innovadora de los espacios habitados, adquiriendo el dominio dle proceso proyectual: la información, la ideación, el desarrollo, la representación, la comunicación y la construcción del espacio.</p>
+						<p>El campo de actividad profesional se extiende a todo espacio habitado: las casas, los comercios, las oficinas, las corporaciones, las exposiciones, los espacios lúdicos, las arquitecturas efímeras, las instalaciones artísticas,... Se puede desarrollar la actividad de diseñador por cuenta propia, formando un gabinete, o integrado en una empresa.</p>
+					</div>
+				</div>
+			</div><!--/slideshow-->
+		</main>
+		<div class="cursor">
+			<div class="cursor__inner cursor__inner--circle"></div>
+			<div class="cursor__inner cursor__inner--dot"></div>
+		</div>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/charming.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
